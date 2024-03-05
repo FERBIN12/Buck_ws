@@ -21,4 +21,4 @@ In terminal
 
 Output:
 
-![image](https://github.com/FERBIN12/Buck/assets/126778624/a241904a-77d4-436c-b01f-4ca3749be524)
+![Screenshot from 2024-03-06 00-26-26](https://github.com/FERBIN12/Buck_ws/assets/126778624/1939c9e0-03e7-4af8-9f30-15ef3a2a3bae)
