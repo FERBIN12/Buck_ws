@@ -4,6 +4,8 @@ OS: UBUNTU 22.04
 
 ROS DISTRO: HUMBLE
 
+Humble installation link::https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
+
 
             
 Packages needed:
