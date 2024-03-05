@@ -25,10 +25,33 @@ Then build the package in your workspace ,
 
 ROBOT with 2 depth camera LAUNCHING COMMAND:
 
-In terminal 
+In terminal 1:
 
     ros2 launch model_py launch_sim.launch.py                        
 
 Output:
 
 ![Screenshot from 2024-03-06 00-26-26](https://github.com/FERBIN12/Buck_ws/assets/126778624/1939c9e0-03e7-4af8-9f30-15ef3a2a3bae)
+
+RTABMAP:
+
+  .**RTAB-Map (Real-Time Appearance-Based Mapping)** is a powerful ROS package designed for real-time _3D environment mapping and localization_. Specifically tailored for depth cameras and 2D lidar mapping, RTAB-Map integrates sensory data to create detailed, dynamic maps
+  .It utilizes visual features for loop closure detection, improving map consistency over time. This package is crucial for autonomous systems, providing a comprehensive solution for mapping, navigation, and localization in various environments.
+
+
+
+In one terminal 2:
+            
+            ros2 launch model_py twodepth.launch.py
+
+In terminal 3 :
+
+Teleoperation: Teleoperation allows users to remotely control the Buck autonomous mobile robot equipped with 2 depth cameras, enabling seamless navigation and interaction within its environment using the teleop_twist_keyboard package in ROS2.
+
+            ros2 run teleop_twist_keyboard teleop_twist_keyboard 
+
+The result obtained post-mapping.:
+
+![Screenshot from 2024-03-06 00-54-58](https://github.com/FERBIN12/Buck_ws/assets/126778624/8452f10c-5888-4e9e-8880-12b443e8ac2a)
+
+            
